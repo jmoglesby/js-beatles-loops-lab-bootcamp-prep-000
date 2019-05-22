@@ -17,3 +17,12 @@ function johnLennonFacts(facts) {
   }
   return lennonFacts;
 }
+
+function iLoveTheBeatles(n) {
+  var myLove = [];
+  do {
+    myLove.push("I love the Beatles!");
+    n++
+  } while (n < 15);
+  return myLove;
+}
