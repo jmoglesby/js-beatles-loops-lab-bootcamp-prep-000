@@ -13,6 +13,7 @@ function johnLennonFacts(facts) {
   while (counter > 0) {
     var fact = facts[counter - 1];
     lennonFacts.push(fact);
+    counter--;
   }
   return lennonFacts;
 }
